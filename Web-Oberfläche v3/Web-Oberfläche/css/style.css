@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.part {
+    display: inline-flex;
+    width: 24.8%;
+    height: 46.9em;
+    margin: 0px;
+    border-radius: 100% 40%;
+}
+
+#one {
+    background-color: rgb(255, 253, 232);
+    margin: auto auto;
+    height: 100%;
+    transition: background-color 2s ease-in-out, border-radius 2s ease-in-out;
+}
+
+#one:hover {
+    background-color: rgb(252, 255, 92);
+    border-radius: 30% 70%;
+}
+
+#two {
+    background-color: rgb(255, 232, 232);
+    margin: auto auto;
+    height: 100%;
+    transition: background-color 2s ease-in-out, border-radius 2s ease-in-out;
+}
+
+#two:hover {
+    background-color: rgb(255, 78, 78);
+    border-radius: 30% 70%;
+}
+
+#three {
+    background-color: rgb(232, 255, 232);
+    margin: auto auto;
+    height: 100%;
+    transition: background-color 2s ease-in-out, border-radius 2s ease-in-out;
+}
+
+#three:hover {
+    background-color: rgb(151, 255, 55);
+    border-radius: 30% 70%;
+}
+
+#four {
+    background-color: rgb(232, 244, 255);
+    margin: auto auto;
+    height: 100%;
+    transition: background-color 2s ease-in-out, border-radius 2s ease-in-out;
+}
+
+#four:hover {
+    background-color: rgb(59, 255, 255);
+    border-radius: 30% 70%;
+}
+
+img {
+	margin: auto auto;
+}
+
+audio {
+    z-index: -1;
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+}
+
+p {
+    font-size: 10px;
+    z-index: -2;
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    z-index: -2;
+    position: absolute;
+    top: 8vw;
+    left: 34vw;
+    text-align: center;
+}
+
+iframe {
+    z-index: -2;
+    position: absolute;
+    top: 21vw;
+    left: 55vw;
+}
+
+#image {
+    z-index: -2;
+    position: absolute;
+    top: 21vw;
+    left: 83vw;
+}
