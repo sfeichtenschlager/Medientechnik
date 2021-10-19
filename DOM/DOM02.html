@@ -1,0 +1,20 @@
+<html>
+<body>
+    
+    <form name="myForm">
+        <input type="number" name="field" value="3">
+    </form>
+    
+    <form name="mySecForm">
+        <input type="number" name="secfield" value="5">
+    </form>
+    
+    <script>
+        let num = parseInt(document.myForm.field.value);
+        let secNum = parseInt(document.mySecForm.secfield.value);
+        let sum = num + secNum;
+        alert(sum);
+    </script>
+
+</body>
+</html>
