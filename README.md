@@ -5,16 +5,16 @@ In der Produktionsvorbereitung kombinieren und **bearbeiten Medientechniker anal
 Sie pflegen und warten technische Einrichtungen.
 
 
-1. ausgabeDialogfenster
-2. DOM
-3. SignUp_FormValidation
-4. Ue02_Einbinden_v_JavaScript
-5. uebungSlideshow
-6. uebungSlideshow02
-7. Web-Oberfläche v2
-8. Web-Oberfläche v3
-9. wuerfel8
-10. testrep02
+1. [ausgabeDialogfenster](https://github.com/sfeichtenschlager/Medientechnik/tree/main/ausgabeDialogfenster)
+2. [DOM](https://github.com/sfeichtenschlager/Medientechnik/tree/main/DOM)
+3. [SignUp_FormValidation](https://github.com/sfeichtenschlager/Medientechnik/tree/main/SignUp_FormValidation)
+4. [Ue02_Einbinden_v_JavaScript](https://github.com/sfeichtenschlager/Medientechnik/tree/main/Ue02_Einbinden_v_JavaScript)
+5. [uebungSlideshow](https://github.com/sfeichtenschlager/Medientechnik/tree/main/uebungSlideshow)
+6. [uebungSlideshow02](https://github.com/sfeichtenschlager/Medientechnik/tree/main/uebungSlideshow02)
+7. [Web-Oberfläche v2](https://github.com/sfeichtenschlager/Medientechnik/tree/main/Web-Oberfl%C3%A4che%20v2/Web-Oberfl%C3%A4che)
+8. [Web-Oberfläche v3](https://github.com/sfeichtenschlager/Medientechnik/tree/main/Web-Oberfl%C3%A4che%20v3/Web-Oberfl%C3%A4che)
+9. [wuerfel8](https://github.com/sfeichtenschlager/Medientechnik/tree/main/wuerfel8)
+10. [testrep02](https://github.com/sfeichtenschlager/Medientechnik/tree/main/testrep02)
 
 ## ausgabeDialogfenster
 
