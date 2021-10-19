@@ -1,0 +1,37 @@
+
+#imageDiv {
+    margin: auto auto;
+}
+
+#outerImgL {
+    margin: 10px;
+    opacity: 60%;
+}
+
+#middleImgL {
+    margin: 15px;
+    opacity: 85%;
+}
+
+#innerImg {
+    margin: 20px;
+}
+
+#middleImgR {
+    margin: 15px;
+    opacity: 85%;
+}
+
+#outerImgR {
+    margin: 10px;
+    opacity: 60%;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 100%;
+}

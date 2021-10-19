@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>Weboberfläche</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(194, 255, 250);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="imageDiv">
+        <img src="images/image01.JPG" alt="firstImg" id="outerImgL" width="10%" height="10%">
+        <img src="images/image02.JPG" alt="secondImg" id="middleImgL" width="15%" height="15%">
+        <img src="images/image03.JPG" alt="thirdImg" id="innerImg" width="20%" height="20%">
+        <img src="images/image04.JPG" alt="fourthImg" id="middleImgR" width="15%" height="15%">
+        <img src="images/image05.JPG" alt="fifthImg" id="outerImgR" width="10%" height="10%">
+    </div>
+
+    <div id="buttonDiv">
+        <div id="backButton" class="button" onclick="switchBack()"><p>&lt;</p></div>
+        <div id="forwardButton" class="button" onclick="switchForward()"><p>&gt;</p></div>
+    </div>
+
+</body>
+</html>
