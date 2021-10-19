@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+	
+	<!-- Custom js -->
+    <script src="js/script.js" defer></script>
+	
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <form method="POST" id="signup-form" class="signup-form">
+                    <h2>Batman Beyond</h2>
+                    <p class="desc">Sign up to get 20% pre - order discount!</p>
+					
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
+						<span class="error" id="error-name"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>
+						<span class="error" id="error-email"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+						<span class="error" id="error-pw1"></span>
+                    </div>
+					<div class="form-group">
+                        <input type="text" class="form-input" name="passwordCheck" id="passwordCheck" placeholder="Repeat password"/>
+						<span class="error" id="error-pw2"></span>
+                    </div>
+					
+                    <div class="form-group">
+                        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+						<span class="error" id="error-term"></span>
+					</div>
+                    <div class="form-group">
+                        <div id="submit" class="form-submit submit">Sign up</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
