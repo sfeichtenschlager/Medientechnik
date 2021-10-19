@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+	<!-- <title="JavaScript mit externer Datei"> -->
+	<SCRIPT src="ExterneDatei.js" type="text/javascript">
+	</SCRIPT>
+	</head>
+	<BODY>
+		<span onclick="document.write('Das Inline-Script sagt: ' + keinFehler);">
+		Nach einem Klick auf MICH sollte hier stehen: Fehler gel&ouml;st
+		</span>
+		<div>
+		<SCRIPT type="text/javascript">			
+			document.write("Hier sollte 444 stehen: ");
+			document.write(zuAenderndeZahl);			
+		</SCRIPT>
+		</div>
+	</BODY>
+</HTML>
